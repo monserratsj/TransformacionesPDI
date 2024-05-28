@@ -24,7 +24,7 @@ def apply_bilinear_transformation(val):
    
     cv2.imshow('Transformada', new_image)
 
-image_path = "C:\\Users\\Roberto Zamora\\Downloads\\mouse.jpg"
+image_path = "mouse.jpg"
 image = cv2.imread(image_path)
 if image is None:
     print("Error al leer la imagen.")
